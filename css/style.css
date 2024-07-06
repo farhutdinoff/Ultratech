@@ -45,14 +45,14 @@ a:hover{
   margin: 0 25px;
   color: #000 ;
 }
-.callback-btn{
+.btn-red{
   background-color: rgb(219, 37, 44);
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
   color: #fff;
   padding: 10px 20px;
-
+  border-radius: 0;
 }
 
 .contact-links a{
@@ -89,10 +89,10 @@ a:hover{
 }
 .btn-box a{
   position: relative;
-  padding: 10px 10px;
+  padding: 20px 18px;
   border: 1px solid rgb(0, 0, 0);
-  width: 60px;
-  height: 60px;
+  max-width: 60px;
+  max-height: 60px;
 }
 .btn-box a:last-child{
   border-left: none;
@@ -114,28 +114,9 @@ a:hover{
   line-height: 15.7px;
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section{
+  padding: 60px 0;
+}
 .section-banner{
   padding: 145px 0 170px;
   background-size: cover;
@@ -174,3 +155,62 @@ a:hover{
   color: #fff;
   padding: 20px 25px 20px 25px;
 }
+.h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.catalog-title{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+.catalog-box{
+  background: rgb(234, 234, 234);
+  padding: 30px;
+}
+.fs-25{
+  font-size: 25px;
+}
+.section-consultation{
+  background: rgb(42, 46, 54);
+}
+.btn-p{
+  padding: 20px 10px;
+}
+.btn{
+  border-radius: 0;
+}
+
+.p-100{
+  padding: 0 100px;
+}
+.advantages-box{
+  margin-bottom: 60px;
+  font-size: 15px;
+}
+
+.advantages-box__img{
+  min-width: 40px;
+}
+.advantages-box__title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
