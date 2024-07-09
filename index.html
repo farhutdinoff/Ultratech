@@ -15,7 +15,7 @@
           <img src="img/logo.svg" alt="">
           <span>Воздушные винтовые компрессоры</span>
         </div>
-        <div class="header-nav d-flex justify-content-between align-items-center">
+        <div class="header-nav d-md-flex justify-content-between align-items-center">
           <a href="#">О компании</a>
           <a href="#">Каталог</a>
           <a href="#">Проекты</a>
@@ -23,13 +23,19 @@
           <a href="#">Сотрудничество</a>
           <a href="#">Контакты</a>
         </div>
-        <div>
+        <div class="header-callback">
           <button class="btn btn-red">
             Заказать звонок
           </button>
         </div>
+        <div id="menuToggle">
+          <input type="checkbox">
+          <span id="span1"></span>
+          <span id="span2"></span>
+          <span id="span3"></span>
       </div>
-      <div class="contact-links d-flex justify-content-between pt-4 pb-4">
+      </div>
+      <div class="contact-links d-md-flex justify-content-between pt-4 pb-4">
         <div>
           <a href="#" class="regular-link">
             Проверка сертификата
@@ -46,7 +52,7 @@
           </a>
         </div>
       </div>
-      <div class="d-flex justify-content-between align-items-center">
+      <div class="d-md-flex justify-content-between align-items-center">
         <div class="search-box">
           <form action="">
             <input type="search">
@@ -76,7 +82,7 @@
   <section class="section-banner" style="background-image: url('img/banner.jpeg');">
     <div class="container">
       <div class="d-md-flex">
-        <div class="">
+        <div class="banner-desc">
           <h1 class="banner-title">
             Винтовые компрессоры Ultratech
           </h1>
@@ -93,7 +99,7 @@
             </button>
           </div>
         </div>
-        <div class="">
+        <div>
           <img src="img/compressor.png" alt="">
         </div>
       </div>
@@ -215,7 +221,7 @@
   <section class="section-consultation">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-6 fs-25 text-white">
+        <div class="col-md-6 fs-25 text-white mb-4 mb-md-0">
           Получите подробную информацию по компрессорному оборудованию у представителя ULTRATECH
         </div>
         <div class="col-md-6 text-md-right">
@@ -232,7 +238,7 @@
         Почему выбирают ULTRATECH?
       </h2>
       <div class="p-100 row">
-        <div class="col-md-3 text-md-right">
+        <div class="col-8 col-md-3 text-md-right">
           <div class="advantages-box d-flex align-items-center justify-content-between">
             <div>
               <div class="advantages-box__title">
@@ -273,10 +279,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-10 col-md-6 ml-auto mr-auto mb-4 mb-md-0">
           <img src="img/compressor.png" alt="">
         </div>
-        <div class="col-md-3">
+        <div class="col-8 col-md-3 ml-auto">
           <div class="advantages-box d-flex align-items-center justify-content-between">
             <div class="advantages-box__img mr-3">
               <img src="img/icon-car.svg" alt="">
@@ -324,21 +330,21 @@
   <section class="section-partners">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-4">
-          <h2 class="h2 text-left">
+        <div class="col-md-4 mb-5 mb-md-0">
+          <h2 class="h2 text-md-left">
             Стать парнёром
           </h2>
           <div class="fs-25 mb-3">
             Мы активно развиваем дилерскую сеть и приглашаем стать нашим партнером
           </div>
           <span class="mini-desc">Нажимая на кнопку, я соглашаюсь на обработку персональных данных</span>
-          <div class="mt-1">
+          <div class="mt-4 mt-md-1">
             <a href="#">
               Получить бесплатную консультация
             </a>
           </div>
         </div>
-        <div class="col-md-6 offset-md-2 pl-5">
+        <div class="col-md-6 offset-md-2 pl-md-5">
           <form action="">
             <div>
               <input type="text" class="input" placeholder="ФИО">
@@ -429,7 +435,7 @@
   <section class="section-request">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-6">
+        <div class="col-md-6 mb-4 mb-md-0">
           <h2 class="h2 text-left">
             Оставьте заявку прямо сейчас
           </h2>
@@ -444,7 +450,7 @@
               <input type="text" class="input" placeholder="+ 7 (XXX) XXX XXX">
             </div>
             <span class="mini-desc">Нажимая на кнопку, я принимаю условия соглашения</span>
-            <div class="mt-5">
+            <div class="text-center text-md-left mt-3 mt-md-5">
               <button class="btn btn-red">
                 Перезвоните мне
               </button>
@@ -506,7 +512,7 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 d-none d-md-block">
           <a href="#" class="footer-link">
             Главное
           </a>
@@ -526,7 +532,7 @@
             Сотрудничество
           </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 d-none d-md-block">
           <a href="#" class="footer-link">
             Вход для дилеров
           </a>
@@ -546,7 +552,7 @@
             Реквизиты
           </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 d-none d-md-block">
           <a href="#" class="footer-link">
             Винтовые масляные компрессоры
           </a>
